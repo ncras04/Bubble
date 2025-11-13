@@ -7,11 +7,16 @@ using System.Threading.Tasks;
 
 namespace Bubblegenerator
 {
-    internal class SoapBubble : Bubble
+    internal class SoapBubble : Bubble, IPoppable
     {
         public override void Bubb()
         {
             Console.WriteLine("Soap blub");
+        }
+
+        public void Pop()
+        {
+            Console.WriteLine("POP!!");
         }
     }
 }
