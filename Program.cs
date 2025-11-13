@@ -9,7 +9,8 @@
             FrozenBubblePop blab = new FrozenBubblePop();
             blab.FrozeBlub();
 
-
+            SoapBubble soap = new SoapBubble();
+            soap.Pop();
         }
     }
 }
