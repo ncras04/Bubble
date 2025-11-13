@@ -8,5 +8,9 @@ namespace Bubblegenerator
 {
     internal class Poppelblub
     {
+        public void Ekelblub()
+        {
+            Console.WriteLine("Ih putz mal deine Nase! ");
+        }
     }
 }

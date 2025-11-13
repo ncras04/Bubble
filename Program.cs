@@ -8,6 +8,9 @@
             blub.Bubb();
             FrozenBubblePop blab = new FrozenBubblePop();
             blab.FrozeBlub();
+            Poppelblub bleb = new Poppelblub();
+            bleb.Ekelblub();
+
 
             SoapBubble soap = new SoapBubble();
             soap.Pop();
