@@ -6,6 +6,10 @@
         {
             Bubble blub = new Bubble();
             blub.Bubb();
+            FrozenBubblePop blab = new FrozenBubblePop();
+            blab.FrozeBlub();
+
+
         }
     }
 }
