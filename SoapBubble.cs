@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Bubblegenerator
 {
-    internal class Bubble
+    internal class SoapBubble : Bubble
     {
-        public virtual void Bubb()
+        public override void Bubb()
         {
-            Console.WriteLine("Blubb");
+            Console.WriteLine("Soap blub");
         }
     }
 }
